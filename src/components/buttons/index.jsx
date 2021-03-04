@@ -45,7 +45,7 @@ const Button = () => {
                 </select>
             </div>
             {buttons && buttons.map((b, i) => (
-                <a onClick={() => handleClick(b)} key={`button-${i}`} data-test={`button-${i}`}>
+                <a href="#" onClick={() => handleClick(b)} key={`button-${i}`} data-test={`button-${i}`}>
                     <div className="button">
                         {b}
                     </div>
